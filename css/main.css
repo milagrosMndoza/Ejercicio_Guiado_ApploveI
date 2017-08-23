@@ -171,13 +171,13 @@ footer {
 
 /*estilos modal*/
 
-.myImg {
+.col-4 img {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-myImg:hover {
+.col-4 img:hover {
     opacity: 0.7;
 }
 
@@ -197,9 +197,27 @@ myImg:hover {
 
 .modal-content {
     margin: auto;
-    display: block;
+    border: 10px solid #fff;
+    display: flex;
     width: 80%;
     max-width: 700px;
+}
+
+.modal a {
+    color: #fff;
+    font-size: 40px;
+    /*text-align: center;*/
+    margin: 15px 0;
+}
+
+a.menor {
+    display: inline-block;
+}
+
+.mostrar {
+    text-align: center;
+    text-decoration: underline;
+    color: aqua;
 }
 
 #caption {
@@ -241,9 +259,9 @@ myImg:hover {
 
 .close {
     position: absolute;
-    top: 80px;
-    right: 320px;
-    color: rgba(255, 249, 249, 0.1);
+    top: 100px;
+    right: 390px;
+    color: rgba(105, 102, 102, 0.1);
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
@@ -251,7 +269,7 @@ myImg:hover {
 
 .close:hover,
 .close:focus {
-    color: #0efce0;
+    color: #0dd2d9;
     text-decoration: overline;
     cursor: pointer;
 }
