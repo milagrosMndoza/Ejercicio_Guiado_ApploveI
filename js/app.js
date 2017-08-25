@@ -14,7 +14,7 @@ for (var i = 0; i < 9; i++) {
 function desplegar() {
     modal.style.display = "block";
     modalImagen.src = this.src;
-    captText.innerHTML = this.alt;
+    /*captText.innerHTML = this.alt;*/
 }
 for (var i = 0; i < 9; i++) {
     spans[i] = document.getElementsByClassName("close")[0];

@@ -100,6 +100,9 @@ header {
     padding: 10vh 2em;
     padding: 70px;
 }
+.container small{
+    color: 
+}
 
 .text-home {
     font-size: 53px;
@@ -151,7 +154,7 @@ footer {
     height: 70px;
     background-color: #373b47;
     color: #fff;
-    padding-top: 7px;
+   /* padding-top: 7px;*/
 }
 
 
